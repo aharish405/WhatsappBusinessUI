@@ -1,0 +1,24 @@
+phone_number_id: 1083180068204622
+
+access_token
+EAAV0VpG2S4wBQZBBrqYDCvRbXpglV8Exd4vCJ0csJZC2dxsHT6FEx6HYVzTwG4t4HVPtAj9frO6C74SvMAMKwhLVXoW4Bc3MjGSUCjZA2hZCyzo4Cf9E1yMs6pVrErfiw76E1Ms86o5q5oI3ivdzbU2v2rFVbPWbl8EdsUCQVPyJxZC3NAMS5ZAlnEwEdDKgZDZD
+
+curl --location 'https://graph.facebook.com/v25.0/1083180068204622/messages' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer EAAV0VpG2S4wBQZBBrqYDCvRbXpglV8Exd4vCJ0csJZC2dxsHT6FEx6HYVzTwG4t4HVPtAj9frO6C74SvMAMKwhLVXoW4Bc3MjGSUCjZA2hZCyzo4Cf9E1yMs6pVrErfiw76E1Ms86o5q5oI3ivdzbU2v2rFVbPWbl8EdsUCQVPyJxZC3NAMS5ZAlnEwEdDKgZDZD' \
+--data '{
+    "messaging_product": "whatsapp",    
+    "recipient_type": "individual",
+    "to": "919032073072",
+    "type": "text",
+    "text": {
+        "preview_url": false,
+        "body": "Hi "
+    }
+}'
+
+waba id: 26571024635838799
+
+app_id: 1535290044205964
+
+whatsapp payload ref: https://www.postman.com/meta/whatsapp-business-platform/overview
