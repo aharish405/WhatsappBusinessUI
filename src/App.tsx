@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 import { 
   Settings, Send, Phone, Key, Menu, X, LayoutDashboard, Terminal, Smartphone,
   CheckCircle2, AlertCircle, Loader2, Bell, Rocket, Zap, Users, BarChart3,
